@@ -6,7 +6,13 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "preinstall": "npm install -g @angular/cli @angular/compiler-cli typescript",
+    "postinstall": "ng build"
+  },
+  "engines": {
+    "node": "16.4.2",
+    "npm": "7.13.0"
   },
   "private": true,
   "dependencies": {
@@ -21,6 +27,8 @@
     "@angular/service-worker": "~12.1.1",
     "@popperjs/core": "^2.9.2",
     "bootstrap": "^5.0.0-beta3",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
     "rxjs": "~6.6.0",
     "tslib": "^2.2.0",
     "zone.js": "~0.11.4"
