@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Copy repository
 
-* `git clone https://github.com/DAWFIEC/sitioAngularBootstrap.git`
+* `git clone https://github.com/DAWFIEC/sitioAngular.git`
 * `cd sitioAngularBootstrap`
 * `npm install`
 
